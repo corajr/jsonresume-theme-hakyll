@@ -1,11 +1,11 @@
 {
-  "name": "jsonresume-theme-boilerplate",
-  "version": "0.1.2",
-  "description": "Boilerplate theme for JSON Resume",
-  "author": "Mattias Erming",
+  "name": "jsonresume-theme-hakyll",
+  "version": "0.0.1",
+  "description": "JSON Resume theme for Hakyll page",
+  "author": "Cora Johnson-Roberson",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erming/jsonresume-theme-boilerplate"
+    "url": "https://github.com/corajr/jsonresume-theme-hakyll"
   },
   "license": "MIT",
   "dependencies": {
