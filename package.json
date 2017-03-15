@@ -9,6 +9,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.4"
+    "handlebars": "^2.0.0-alpha.4",
+    "helper-markdown": "^0.2.1",
+    "marked": "^0.3.6"
   }
 }

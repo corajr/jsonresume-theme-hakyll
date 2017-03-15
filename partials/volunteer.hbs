@@ -1,6 +1,6 @@
 {{#if resume.volunteer.length}}
 <section id="volunteer">
-	<h2>Volunteer</h2>
+	<h2>Projects</h2>
 	{{#each resume.volunteer}}
 	<div class="item">
 		{{#if organization}}
@@ -42,7 +42,7 @@
 		{{#if highlights.length}}
 		<ul class="highlights">
 			{{#each highlights}}
-			<li>{{.}}</li>
+			<li>{{#markdown .}}{{/markdown}}</li>
 			{{/each}}
 		</ul>
 		{{/if}}

@@ -36,13 +36,13 @@
 		{{/if}}
 		{{#if summary}}
 		<div class="summary">
-			<p>{{summary}}</p>
+      {{#markdown summary}}{{/markdown}}
 		</div>
 		{{/if}}
 		{{#if highlights.length}}
 		<ul class="highlights">
 			{{#each highlights}}
-			<li>{{.}}</li>
+			<li>{{#markdown .}}{{/markdown}}</li>
 			{{/each}}
 		</ul>
 		{{/if}}

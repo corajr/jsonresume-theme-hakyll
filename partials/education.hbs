@@ -42,7 +42,7 @@
 		{{#if courses.length}}
 		<ul class="courses">
 			{{#each courses}}
-			<li>{{.}}</li>
+			<li>{{#markdown .}}{{/markdown}}</li>
 			{{/each}}
 		</ul>
 		{{/if}}

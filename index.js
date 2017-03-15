@@ -1,6 +1,9 @@
 var fs = require("fs");
 var path = require('path');
+var markdown = require("helper-markdown");
 var Handlebars = require("handlebars");
+
+Handlebars.registerHelper('markdown', markdown());
 
 function render(resume) {
 	var css = fs.readFileSync(__dirname + "/style.css", "utf-8");
