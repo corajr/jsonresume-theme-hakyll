@@ -6,19 +6,7 @@ Generates a simple resume tailored for a Hakyll site.
 
 To get started with theme development, this is what you'll need:
 
-- [node.js](http://howtonode.org/how-to-install-nodejs)
-- [npm](http://howtonode.org/introduction-to-npm)
-
-If you're on Linux, you can simply run:
-
-```
-sudo apt-get install nodejs-legacy npm
-```
-
-Or if you're on OSX and got [Homebrew](http://brew.sh/) installed:
-```
-brew install node
-```
+- [yarn](https://yarnpkg.com/)
 
 ### Install the command line
 
@@ -27,19 +15,19 @@ We're going to use the official [resume-cli](https://github.com/jsonresume/resum
 Go ahead and install it:
 
 ```
-sudo npm install -g resume-cli
+npm install -g resume-cli
 ```
 
 ### Download theme
 
-Lets go ahead and download a [copy of the repository](https://github.com/jsonresume/jsonresume-theme-boilerplate/archive/master.zip).
+Let's go ahead and download a [copy of the repository](https://github.com/jsonresume/jsonresume-theme-boilerplate/archive/master.zip).
 
 ### Install npm packages
 
 We need to install the dependencies. `cd` into the theme folder we just downloaded and run:
 
 ```bash
-sudo npm install
+yarn
 ```
 
 This will read the local `package.json` and install the packages listed under `dependencies`.
